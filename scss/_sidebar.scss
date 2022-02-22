@@ -1,0 +1,71 @@
+.side-nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100% - 24px);
+    width: 72px;
+    top: 12px;
+    left: 12px;
+    background-color: $nav-color;
+    color: $text-color;
+    border-radius: 22px;
+}
+
+.side-nav *{
+    text-align: center;
+
+}
+
+ul.menu-list{
+    width: 100%;
+    list-style: none;
+}
+
+li.menu-item {
+    position: relative; 
+    padding: 8px 0;
+    z-index: 1;
+
+    &.active::before{
+        content: '';
+        position: absolute;
+        height: 40px;
+        width: 64px;
+        top: 4px;
+        right: 0;
+        background: #fff;
+        border-radius: 20px 0 0 20px;
+        z-index: -1;
+    }
+
+    &.active::after{
+        content: '';
+        position: absolute;
+        height: 74px;
+        width: 20px;
+        top: -12px;
+        right: 0;
+        background: radial-gradient(circle, transparent 74%, #fff 74%) no-repeat center,
+                    radial-gradient(circle, transparent 74%, #fff 74%) no-repeat center;
+        background-size: 48px 48px;
+        background-position: -28px 56px, -28px -32px;
+    }
+
+    &.active .fas{
+        color: $nav-color;
+        font-weight: 600;
+
+    }
+}
+
+.side-nav .fas{
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+}
+
+.brand-name{
+    font-size: 12px;
+}

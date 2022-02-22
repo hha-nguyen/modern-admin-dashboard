@@ -1,0 +1,32 @@
+@import 'config';
+@import 'sidebar';
+@import 'content';
+@import 'panel';
+
+body {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: $background-color;
+    font-family: 'Poppins', sans-serif;
+    color: $text-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width:  1100px;
+    padding: 0 0 0 72px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+
+
+
+

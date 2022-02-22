@@ -1,0 +1,25 @@
+{
+  "name": "modern-admin-dashboard",
+  "version": "1.0.0",
+  "description": "build modern admin dasboard from scratch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesto298/modern-admin-dashboard.git"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "mesto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mesto298/modern-admin-dashboard/issues"
+  },
+  "homepage": "https://github.com/mesto298/modern-admin-dashboard#readme",
+  "dependencies": {
+    "echarts": "^5.3.0"
+  }
+}

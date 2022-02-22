@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+$text-color: #000;
+$background-color: #a29bfe;
+$nav-color: #40407a;
+$yellow-gradient-color: linear-gradient( #f7b731, #fd7644);  
+$yellow-color: #f7b731;
+$red-gradient-color: linear-gradient( #fc5c65, #eb3b5a);
+$red-color: #fc5c65;
+$blue-color: #45aaf2;
+$gray-color: #dfe6e9;
+$border-color: #efefef;
+$report-icon-color: $red-color;
+$report-icon-border: $border-color;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin border {
+    border: 1px solid $border-color;
+}
+
